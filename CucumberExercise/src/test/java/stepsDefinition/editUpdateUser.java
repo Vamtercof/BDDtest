@@ -14,7 +14,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.json.Json;
 import org.testng.Assert;
 
-import javax.swing.text.Document;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
@@ -30,11 +29,11 @@ public class editUpdateUser {
     ExtentTest scenarioDef;
     public MongoClient mongoClient;
     public MongoDatabase database;
-    ArrayList<String> colName = new ArrayList<String>();
-    ArrayList<Document> dbs = new ArrayList<Document>();
-    ArrayList<String> dbName = new ArrayList<String>();
+    ArrayList<String> colName = new ArrayList<>();
+    ArrayList<Document> dbs = new ArrayList<>();
+    ArrayList<String> dbName = new ArrayList<>();
     private String Database;
-    public List<Document> collections = new ArrayList<Document>();
+    public List<Document> collections = new ArrayList<>();
     public MongoCollection<Document> col;
     ArrayList<String> rows = new ArrayList<>();
 
